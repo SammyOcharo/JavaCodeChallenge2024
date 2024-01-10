@@ -48,10 +48,12 @@ public class WarOfNUmbers {
         int[] array2 = {12, 90, 75};
         int[] array3 = {5, 9, 45, 6, 2, 7, 34, 8, 6, 90, 5, 243};
         int[] array4 = {1256, 9023, 7235};
+        int[] array5 = {43, 12, 43};
 
         System.out.println((ArrayOfIntergers(array1)));
         System.out.println((ArrayOfIntergers(array2)));
         System.out.println((ArrayOfIntergers(array3)));
         System.out.println((ArrayOfIntergers(array4)));
+        System.out.println((ArrayOfIntergers(array5)));
     }
 }
