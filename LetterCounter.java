@@ -22,16 +22,15 @@ public class LetterCounter {
     public static int CountCharacter(char[][] maxtrix, char Letter){
         int count = 0;
 
-        for(int i=0; i< maxtrix.length; i++){
-            System.out.println(maxtrix[i]);
-           for(int j = 0; j< maxtrix.length; j++){
-               if(maxtrix[i][j] == Letter){
-                   count += 1;
-               }
-           }
+        for (char[] row : maxtrix) {
+            for (char element : row) {
+                if (element == Letter) {
+                    count++;
+                }
+            }
         }
 
-        return 0;
+        return count;
     }
 
     public static void main(String[] args) {
