@@ -1,5 +1,5 @@
 public class LetterCounter {
-    //Create a function that counts the number of times a particular letter shows up in the word search...
+    //Create a function that counts the number of times a particular letter shows up in the word search......
     //Examples
     //letterCounter([
     //  ["D", "E", "Y", "H", "A", "D"],
