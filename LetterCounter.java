@@ -22,8 +22,8 @@ public class LetterCounter {
     public static int CountCharacter(char[][] maxtrix, char Letter){
         int count = 0;
 
-        for (char[] row : maxtrix) {
-            for (char element : row) {
+        for (char[] singleRow : maxtrix) {
+            for (char element : singleRow) {
                 if (element == Letter) {
                     count++;
                 }
@@ -44,7 +44,11 @@ public class LetterCounter {
         };
 
         int letter = CountCharacter(matrix1, 'D');
+        int letter1 = CountCharacter(matrix1, 'H');
+        int letter2 = CountCharacter(matrix1, 'S');
 
-        System.out.println(letter);
+        System.out.println("Occurence of the letter D "+ letter);
+        System.out.println("Occurence of the letter H "+ letter1);
+        System.out.println("Occurence of the letter S "+ letter2);
     }
 }
