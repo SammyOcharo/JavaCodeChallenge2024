@@ -15,20 +15,26 @@ public class Switcharoo {
     //
     //flipEndChars("z") ➞ "Incompatible."
     
-    private static String wordSwitch(String word){
+    private static StringBuilder wordSwitch(String word){
 
         String newWord;
         
         if(word.length()< 2){
-            return "Incompatible";
+            return new StringBuilder("Incompatible");
         } else if (word.charAt(0) == (word.charAt(word.length()-1))) {
-            return "Two's a pair.";
+            return new StringBuilder("Two's a pair.");
         } else {
             char beginning = word.charAt(0);
             char end = word.charAt(word.length()-1);
-            newWord = end + word.substring(1, word.length()-1) + beginning;
 
-            return  newWord;
+            StringBuilder result = new StringBuilder();
+            result.append(end);
+            for (int i = 1; i < word.length() - 1; i++) {
+                result.append(word.charAt(i));
+            }
+           result.append(beginning);
+
+            return  result;
         }
 
     }
