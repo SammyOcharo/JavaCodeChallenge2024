@@ -12,8 +12,6 @@ public class QuadraticEquation {
     //quadraticEquation(1, 2, -3) ➞ 1
     //
     //quadraticEquation(2, -7, 3) ➞ 3
-    //
-    //quadraticEquation(1, -12, -28) ➞ 14
 
     public static double[] QuadraticFuc(double a, double b, double c){
 
