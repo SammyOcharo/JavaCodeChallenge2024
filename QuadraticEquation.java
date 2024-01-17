@@ -10,7 +10,6 @@ public class QuadraticEquation {
     //c as the constant term
     //Examples
     //quadraticEquation(1, 2, -3) ➞ 1
-    //
     //quadraticEquation(2, -7, 3) ➞ 3
 
     public static double[] QuadraticFuc(double a, double b, double c){
