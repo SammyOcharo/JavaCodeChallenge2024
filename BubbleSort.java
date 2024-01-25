@@ -21,7 +21,7 @@ public class BubbleSort {
 
     public  static void main(String[] args){
 
-        int[] numberList = {73,75, 56,32, 65, 52};
+        int[] numberList = {73,75, 56,32, 65, 52, 66};
 
         System.out.println(Arrays.toString(BubbleSortFunc(numberList)));
     }
