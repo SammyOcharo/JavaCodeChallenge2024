@@ -58,5 +58,8 @@ public class WarOfNUmbers {
         System.out.println((ArrayOfIntergers(array3)));
         System.out.println((ArrayOfIntergers(array4)));
         System.out.println((ArrayOfIntergers(array5)));
+        System.out.println((ArrayOfIntergers(array6)));
+        System.out.println((ArrayOfIntergers(array7)));
+        System.out.println((ArrayOfIntergers(array8)));
     }
 }
