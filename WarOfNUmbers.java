@@ -49,6 +49,9 @@ public class WarOfNUmbers {
         int[] array3 = {5, 9, 45, 6, 2, 7, 34, 8, 6, 90, 5, 243};
         int[] array4 = {1256, 9023, 7235};
         int[] array5 = {43, 12, 43};
+        int[] array6 = {89, 92, 23};
+        int[] array7 = {43, 52, 63};
+        int[] array8 = {33, 32, 44};
 
         System.out.println((ArrayOfIntergers(array1)));
         System.out.println((ArrayOfIntergers(array2)));
