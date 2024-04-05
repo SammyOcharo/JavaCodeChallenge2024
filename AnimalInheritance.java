@@ -1,4 +1,5 @@
 public class AnimalInheritance {
+    //
     //Java Inheritance: Exercise-1 with Solution
     //Write a Java program to create a class called Animal with a method called makeSound().
     // Create a subclass called Cat that overrides the makeSound() method to bark.
