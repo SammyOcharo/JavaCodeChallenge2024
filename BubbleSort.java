@@ -2,7 +2,7 @@ import java.util.Arrays;
 
 public class BubbleSort {
     public static int[] BubbleSortFunc (int[] unsortedArray){
-
+        // temp init
         int temp = 0;
 
         for(int i=0; i< unsortedArray.length; i++){
