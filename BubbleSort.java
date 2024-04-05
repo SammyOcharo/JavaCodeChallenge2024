@@ -1,7 +1,6 @@
 import java.util.Arrays;
 
 public class BubbleSort {
-    //bubble sort algorithm
     public static int[] BubbleSortFunc (int[] unsortedArray){
 
         int temp = 0;
