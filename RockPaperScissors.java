@@ -17,9 +17,7 @@ public class RockPaperScissors {
     //rps("paper", "rock") ➞ "Player 1 wins"
     //
     //rps("paper", "scissors") ➞ "Player 2 wins"
-    //
     //rps("scissors", "scissors") ➞ "TIE"
-    //
     //rps("scissors", "paper") ➞ "Player 1 wins"
 
     public static String gameFunc(){
